@@ -9,7 +9,7 @@ extern double **output; // output matrix
 /** struct to hold parameters to mmm_par() **/
 typedef struct thread_args
 {
-  int tid;    // the given thread id (0, 1, ...)
+  int tid;    // given thread id (0, 1, ...)
   int begin; // index of first output row to compute
   int end;   // index of last output row to compute
 } thread_args;
